@@ -8,3 +8,17 @@ spring:
           uri: https://github.com/AnharAwadh/testconfig.git
           default-label: master
           searchPaths: '{application}'
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+management:
+  security:
+    enabled: false
+
+  endpoints:
+    web:
+      exposure:
+        include: "*"
