@@ -5,19 +5,18 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AnharAwadh/testconfig.git
+          uri: https://github.com/taleb-dev/testconfig1.git
           default-label: master
           searchPaths: '{application}'
 
   rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+    host: cow.rmq2.cloudamqp.com
+    username: vimyebsw
+    password: JAHCIOnxeCrPShanxtEdXkqEVBzz9OX0
+    virtual-host: vimyebsw
 management:
   security:
     enabled: false
-
   endpoints:
     web:
       exposure:
